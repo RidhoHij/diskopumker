@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif ;
+    background-image: url(https://www.amazingborneo.id/wp-content/uploads/2019/11/pasar-terapung-banjarmasin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*navbar*/
+nav{
+    display: flex;
+    background-color:rgb(169, 169, 169);
+    align-items: center;
+    justify-content:space-between;
+    padding: 1.4rem 6%;
+}
+
+nav .navbar-logo{
+  color: yellow;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: italic;
+}
+
+nav .navbar-logo span {
+  color: black;
+}
+
+
+nav .navbar-nav a:hover{
+  color: yellow;
+
+}
+
+
+ul li{
+  display: inline-block;
+  padding: 2px 8px;
+}
+
+ul li a {
+  color:black;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+}
+
+ul li ul .dropdown li {
+  display: block;
+}
+
+ul li .dropdown{
+  display: none;
+  position:fixed;
+  background-color: rgb(171, 167, 167);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 4;
+}
+
+ul li a:hover{
+  color: rgb(255, 15, 11);
+  transition: all .5s ease-in-out;
+}
+
+ ul li:hover ul.dropdown{
+  display: block;
+ } 
+
+.text {
+  color: rgb(255, 255, 255);
+    font-size: 36px;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.text h1{
+  font-size: 100px;
+}
